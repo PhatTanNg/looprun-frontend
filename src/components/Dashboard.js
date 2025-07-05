@@ -30,7 +30,7 @@ export default function Dashboard() {
         const token = localStorage.getItem('token');
 
         try {
-            const res = await fetch('http://localhost:5001/api/track', {
+            const res = await fetch('https://looprun-backend.onrender.com/api/track', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ export default function Dashboard() {
         const token = localStorage.getItem('token');
 
         try {
-            const res = await fetch('http://localhost:5001/api/track', {
+            const res = await fetch('https://looprun-backend.onrender.com/api/track', {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             const data = await res.json();

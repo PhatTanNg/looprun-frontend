@@ -8,7 +8,7 @@ export default function Login() {
 
     const handleLogin = async () => {
         try {
-            const res = await fetch('http://localhost:5001/api/auth/login', {
+            const res = await fetch('https://looprun-backend.onrender.com/api/auth/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })
