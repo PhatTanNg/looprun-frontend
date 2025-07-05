@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+🏃‍♂️ LoopRun - Running Tracking & Route Planning App
+LoopRun is a simple web application that allows users to:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✅ Register and log in securely
+✅ Track their running distance (km) over time
+✅ Plan a circular running route based on their distance target, with start and end at the same location
+✅ View their total distance run
 
-## Available Scripts
+Status: The project is under active development, new features and improvements are being added continuously!
 
-In the project directory, you can run:
+🌐 Live Demo
+Try the app here:
 
-### `npm start`
+https://looprun.online
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚙️ Tech Stack
+Frontend: ReactJS, React Router
 
-### `npm test`
+Backend: Node.js, Express, MongoDB, Mongoose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Authentication: JWT
 
-### `npm run build`
+Route Planning Logic: Circular route generation based on distance target
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deployment:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend on Vercel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend on Render
 
-### `npm run eject`
+Data Structures & Algorithms (DSA):
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Applied to route planning logic
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Optimizing circular path calculations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Future improvements with pathfinding algorithms and graph structures for dynamic route generation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✨ Key Features
+Secure user registration and login with hashed passwords
 
-## Learn More
+JWT-based authentication
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Dashboard to track running distance
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Automatic route planner: Generate a circular running route based on your distance goal
 
-### Code Splitting
+Efficient distance calculation and route logic utilizing DSA principles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Running history and total distance tracking
 
-### Analyzing the Bundle Size
+Clean, minimal interface
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚧 Planned Improvements
+Advanced route planning with real-world map data
 
-### Making a Progressive Web App
+Pathfinding and graph algorithms for realistic route suggestions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Visual route preview on map
 
-### Advanced Configuration
+Improved mobile responsiveness
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Better error handling and validation
 
-### Deployment
+Enhanced UI/UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👨‍💻 Developer Notes
+LoopRun is not production-ready yet. It is being developed as a learning project focusing on:
 
-### `npm run build` fails to minify
+✔ Fullstack web development
+✔ Practical application of DSA (Data Structures & Algorithms) to real-world problems
+✔ Clean, functional design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, suggestions, and feedback are always welcome!
