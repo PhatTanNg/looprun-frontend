@@ -55,7 +55,7 @@ export default function Dashboard() {
                 value={distance}
                 onChange={(e) => setDistance(e.target.value)}
             />
-
+            <button style={styles.button} onClick={() => navigate('/planner')}>Plan a Run</button>
             <button style={styles.button} onClick={handleAdd}>Submit</button>
             <button style={styles.logout} onClick={handleLogout}>Log out</button>
         </div>
